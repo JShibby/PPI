@@ -1,4 +1,4 @@
-# PPI
+# Predicting the PPI
 Welcome to my repository for *Predicting the Poverty Probability Index.*  In this project, I attempted to predict the PPI from high-level data about individuals provided by the Finanical Inclusion Insights household surveys.  
 
 The project's metric was the R2 score.  The result was disappointing: only a low R2 score of 0.422 was acieved.  I investigate this low performance and point to two issues in the data:
