@@ -1,7 +1,7 @@
 # PPI
-Welcome to Justin's repository for *Predicting the Poverty Probability Index.*  In this project, I attempted to predict the PPI from high-level data about individuals provided by the Finanical Inclusion Insights household surveys.  
+Welcome to my repository for *Predicting the Poverty Probability Index.*  In this project, I attempted to predict the PPI from high-level data about individuals provided by the Finanical Inclusion Insights household surveys.  
 
-The project's metric was the R2 score.  The result was disappointing: only a low R2 score of 0.422 was acieved.  I investigate this low performance and point to the features as being relatively uninformative.  As a continuous variable, the PPI represents a regression problem, but the dataset effectively offers no numerical basis for regression.  
+The project's metric was the R2 score.  The result was disappointing: only a low R2 score of 0.422 was acieved.  I investigate this low performance and point to the relatively uninformativeness of the features as the primary problem.  The PPI is a continuous variable, so represents a regression problem.  But the dataset effectively offers no numerical basis for regression: after proper coding, it contains almost entirely boolean and categorical information.  
 
 This repository holds the data report, scripts, and data files used for review.  All the analysis appears in the data report *Predicting the PPI.pdf*.
 
