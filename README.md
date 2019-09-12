@@ -5,7 +5,7 @@ The project's metric was the R2 score.  The result was disappointing: only a low
 1. The target is a continuous variable, but the data provides almost no numerical basis for regression.
 2. The features exhibit a fair amount of information overlap.
 
-This repository holds the data report, scripts, and data files used for review.  All the analysis appears in the data report **"Predicting the PPI.pdf"**.
+This repository holds the data report, scripts, and data files used for review.  All the analysis appears in the data report **["Predicting the PPI."](PPI_data_report.pdf)**
 
 ## Scripts
 Several Python scripts must be run in succession to respect dependencies: *data*, *encode*, and *model*.  In addition, two other supplemental scripts can be run optionally.  Numbers show necessary scripts; bullets show the optional scripts.  
