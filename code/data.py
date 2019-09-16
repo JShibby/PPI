@@ -30,8 +30,8 @@ import time
 print('Import ...')
 t = time.time()
 
-df = pd.read_csv('train_values.csv', index_col = 'row_id')
-labels = pd.read_csv('train_labels.csv', index_col = 'row_id')
+df = pd.read_csv('data/train_values.csv', index_col = 'row_id')
+labels = pd.read_csv('data/train_labels.csv', index_col = 'row_id')
 df = df.join(labels)
 dfo = df
 
