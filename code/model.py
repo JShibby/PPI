@@ -9,7 +9,7 @@ from sklearn.linear_model import Ridge, Lasso
 from sklearn.metrics import r2_score
 
 import warnings
-#warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 #%%  Plotting
 def scatter(y, yp,title = ''):
