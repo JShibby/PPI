@@ -16,4 +16,4 @@ Several Python scripts must be run in succession to respect dependencies: *data*
 3. model.py
    * present.py
    
-The final modeling was done in Azure Machine Learning Studio, so that bit does not appear in these scripts.
+The final modeling was done in Azure Machine Learning Studio, so that work does not appear here.
