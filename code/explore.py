@@ -47,9 +47,6 @@ for col in columns:
 #Discovered that education_level and share_hh_income_provided are ints.     
 columns = df.columns[df.dtypes == 'float64'][:-1]
 
-#df.plot.scatter(x = 'avg_shock_strength_last_year', y='poverty_probability', alpha = 0.2)
-#df.plot.hexbin(x = 'avg_shock_strength_last_year', y='poverty_probability', gridsize = 15)
-
 for col in columns:
     plt.figure()
     df.plot.scatter(x = col, y='poverty_probability', alpha = 0.2)    
