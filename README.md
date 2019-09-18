@@ -7,6 +7,9 @@ The project's metric was the R2 score.  The result was disappointing: only a low
 
 This repository holds the data report, scripts, and data files used for review.  All the analysis appears in the data report **["Predicting the PPI."](PPI_data_report.pdf)**
 
+## Companion Notebook
+This project contains a **[companion Jupyter notebook](data/PPI.ipynb)**, representing a summary of the work in the project.
+
 ## Scripts
 Several Python scripts must be run in succession to respect dependencies: *data*, *encode*, and *model*.  In addition, two other supplemental scripts can be run optionally.  Numbers show necessary scripts; bullets show the optional scripts.  
 
